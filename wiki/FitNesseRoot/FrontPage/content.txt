@@ -12,5 +12,6 @@
 
 !2 [[MyTestSuite][.MyTestSuite]]
 
+shutdown toegevoegd
 
 [[Re Run Last Failures][.ReRunLastFailures]]
