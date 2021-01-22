@@ -19,3 +19,12 @@ span.fail, td.fail {
 footer {
   background-image: url('specialisterren-dark.svg');
 }
+.helper-content {
+  min-height: 98%;
+  padding-bottom: 60px;
+  background-image: url('specialisterren-dark.svg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  position: relative;
+  bottom: -16px;
+}

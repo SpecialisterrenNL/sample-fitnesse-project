@@ -43,3 +43,12 @@ button.prefsbutton {
 .navbar-form {
   padding: 0 12px 0 0;
 }
+.helper-content {
+  min-height: 98%;
+  padding-bottom: 60px;
+  background-image: url('specialisterren-light.svg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  position: relative;
+  bottom: -16px;
+}
