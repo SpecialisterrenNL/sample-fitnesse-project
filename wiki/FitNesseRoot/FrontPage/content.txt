@@ -12,5 +12,4 @@
 
 !2 [[MyTestSuite][.MyTestSuite]]
 
-
 [[Re Run Last Failures][.ReRunLastFailures]]
