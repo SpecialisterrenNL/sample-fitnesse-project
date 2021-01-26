@@ -1,3 +1,14 @@
+## Toegevoegd Specialisterren januari 2021
+We gebruiken generiek, als template, dit sample (voorbeeld) project binnen Specialisterren om de een project op te starten als we met HSAC-FitNesse testen automatiseren. 
+Voer de volgende acties uit bij de start van een project
+* Vraag of trek met een test engineer op die vaker de inrichting van een project heeft gedaan om dit template te gebruiken. 
+* Vervolgens vraag je aan de testlead of klant waar de repository moet komen te staan bij de klant in hun versie controle systeem zoals de GitHub omgeving van de klant. 
+* Gebruik de Fork optie om dit project te kopieren, de klant/projectnaam te geven en vanuit de Fork ga je vervolgens met pull requests de scripts (testautomatisering) committen.
+* Eerste vraagbaak bij onduidelijkheden is Rutger Slangen om je vragen aan te stellen. Bij zijn afwezigheid kun je Lukas Boekenoogen vragen stellen.
+* Lees en gebruik de informatie die hieronder vermeld wordt
+Hieronder volgt informatie en meer uitleg hoe het FitNesse-HSAC werkt en ook in relatie tot Maven en JDK.
+
+## Introduction
 This testing project uses the FitNesse baseline provided by [hsac-fitnesse-fixtures](https://github.com/fhoeben/hsac-fitnesse-fixtures).
 It offers a web environment (wiki) to define and run tests. It is extended with [Praegus' Toolchain plugin](https://gitlab.com/praegus/toolchain-fixtures/toolchain-fitnesse-plugin), improving the vanilla wiki.
 
