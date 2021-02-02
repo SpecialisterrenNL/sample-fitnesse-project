@@ -1,7 +1,7 @@
 a {
   color: #1e72b9;
 }
-td.ignore, td.error, td.fail, td.pass {
+:not(.scenario) > td.ignore, td.error, td.fail, td.pass {
   text-align: center;
 }
 #tooltip-div {
