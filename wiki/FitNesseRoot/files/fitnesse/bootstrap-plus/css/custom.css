@@ -1,13 +1,16 @@
 a {
   color: #1e72b9;
 }
-:not(.scenario) > td.ignore, td.error, td.fail, td.pass {
+tr:not(.scenario) > td.ignore,
+tr:not(.scenario) > td.error,
+tr:not(.scenario) > td.fail,
+tr:not(.scenario) > td.pass {
   text-align: center;
 }
 #tooltip-div {
-    padding: 0px;
-    margin: 0 0 10px;
-    background-color: transparent;
+  padding: 0px;
+  margin: 0 0 10px;
+  background-color: transparent;
 }
 #tooltip-text {
   font-weight: 200;
@@ -20,14 +23,6 @@ a {
   width: 16px;
   height: 16px;
   content:"";
-}
-article tr:not([class^='slim']):not([class^='hash_']):nth-child(2n+3),
-tr[class^='slim']:nth-child(odd) {
-  background-color: transparent !important;
-}
-article tr:not([class^='slim']):not([class^='hash_']):nth-child(even),
-tr[class^='slim']:nth-child(even) {
-  background-color: transparent !important;
 }
 footer {
   background-image: url('specialisterren-light.svg');
